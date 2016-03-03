@@ -5,9 +5,9 @@ This is a Nutch plugin for indexing documents using Elasticsearch 2.x.
 
 ## Installation
 
-1. Copy this plugin into your nutch plugin directory ($NUTCH\_ROOT/src/plugin/).
+1) Copy this plugin into your nutch plugin directory `$NUTCH_HOME/src/plugin`.
 
-2. Add the required plugin to your `NUTCH_HOME/src/plugin/build.xml`
+2) Add the required plugin to your `NUTCH_HOME/src/plugin/build.xml`.
 ```
 <!-- NUTCH_HOME/src/plugin/build.xml -->
 
@@ -26,7 +26,7 @@ This is a Nutch plugin for indexing documents using Elasticsearch 2.x.
 </project>
 ```
 
-3. Make sure you have plugin name included in your nutch configuration file $NUTCH\_ROOT/conf/nutch-site.xml
+3) Make sure you have plugin name included in your nutch configuration file `NUTCH_ROOT/conf/nutch-site.xml`
 ```
 <!-- NUTCH_HOME/conf/nutch-site.xml -->
 
@@ -39,4 +39,4 @@ This is a Nutch plugin for indexing documents using Elasticsearch 2.x.
   ...
 </configuration>
 ```
-4. Compile using ant
+4) Compile using ant
